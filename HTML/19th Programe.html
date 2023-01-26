@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h2>Registration form</h2>
+    <form>
+        
+        <div>
+            <label for="fullname">FullName:</label> 
+            <input type="text" name="fullname" id="fullname" required>
+        </div> <br>
+
+        <div>
+            <label for="email">E-mail:</label> 
+            <input type="text" name="email" id="email">
+        </div> <br>
+
+        <div>
+            <label for="password">Password:</label> 
+            <input type="password" name="password" id="password">
+        </div> <br>
+
+        <div>
+            <label for="date of birth">Date of Birth:</label> 
+            <input type="date" name="dob" id="dob">
+        </div> <br>
+
+        <div>
+            <label for="photo">choose your Image:</label> 
+            <input type="file" name="photo" id="photo">
+        </div> <br>
+
+        <div>
+            <label for="gender">Gender:</label> 
+            <input type="radio" name="gender" id="gender" value="male"> Male
+            <input type="radio" name="gender" id="gender" value="female"> Female
+        </div> <br>
+
+        <div>
+            <label for="religion">Religion:</label> 
+            <input checked type="checkbox" name="Muslim" id="Islam" value="male"> Islam
+            <input type="checkbox" name="Hindu" id="Nomo" value="female"> Nomo
+        </div> <br>
+
+        <div>
+            <label for="department:">Department</label>
+            <select name="Department"> 
+                <option value="CSE" selected>CSE</option>
+                <option value="EEE">EEE</option>
+                <option value="LLB">LLB</option>
+                <option value="TE">TE</option>
+                <option value="BBA">BBA</option>
+            </select>
+        </div> <br>
+
+        <div>
+            <label for="message">Message:</label><br>
+            <textarea col="30" rows="20"></textarea>
+        </div> <br>
+
+        <div>
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </div>
+    </form>
+    
+</body>
+</html>
